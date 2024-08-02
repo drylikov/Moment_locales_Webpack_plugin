@@ -13,14 +13,14 @@ You don’t need most of these files if your app is only available in a few lang
 ## Install
 
 ```sh
-npm install --save-dev moment-locales-webpack-plugin
+npm install --save-dev Moment_locales_Webpack_plugin
 ```
 
 ## Usage
 
 ```js
 // webpack.config.js
-const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
+const MomentLocalesPlugin = require('Moment_locales_Webpack_plugin');
 
 module.exports = {
     plugins: [
