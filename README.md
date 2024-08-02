@@ -1,4 +1,4 @@
-# moment-locales-webpack-plugin
+# Moment Locales Webpack Plugin
 
 > Easily remove unused Moment.js locales when building with webpack
 
@@ -53,6 +53,3 @@ Be careful! A typo in the `localesToKeep` array with this flag enabled will sile
 ## Related projects
 
 -   [`moment-timezone-data-webpack-plugin`](https://github.com/gilmoreorless/moment-timezone-data-webpack-plugin) – a plugin optimizing the Moment Timezone library.
-
-
-MIT © <a href="https://iamakulov.com">Ivan Akulov</a>
