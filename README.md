@@ -1,12 +1,10 @@
 # moment-locales-webpack-plugin
 
-[![npm](https://img.shields.io/npm/v/moment-locales-webpack-plugin.svg)](https://www.npmjs.com/package/moment-locales-webpack-plugin) [![Travis](https://img.shields.io/travis/iamakulov/moment-locales-webpack-plugin.svg)](https://travis-ci.org/iamakulov/moment-locales-webpack-plugin) [![Greenkeeper badge](https://badges.greenkeeper.io/iamakulov/moment-locales-webpack-plugin.svg)](https://greenkeeper.io/)
-
 > Easily remove unused Moment.js locales when building with webpack
 
 ## Why
 
-75% (160 minified KBs)¹ of [Moment.js’](https://github.com/moment/moment) size are files used for localization. [They are always included](https://iamakulov.com/notes/webpack-front-end-size-caching/#moment-js) when you build your app with webpack.
+75% (160 minified KBs)¹ of [Moment.js’](https://github.com/drylikov/Moment.JS) size are files used for localization. They are always included when you build your app with webpack.
 
 You don’t need most of these files if your app is only available in a few languages. Use this plugin to strip these KBs and optimize the app!
 
@@ -56,10 +54,5 @@ Be careful! A typo in the `localesToKeep` array with this flag enabled will sile
 
 -   [`moment-timezone-data-webpack-plugin`](https://github.com/gilmoreorless/moment-timezone-data-webpack-plugin) – a plugin optimizing the Moment Timezone library.
 
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/iamakulov/moment-locales-webpack-plugin/blob/master/CONTRIBUTING.md) for how to contribute.
-
-## License
 
 MIT © <a href="https://iamakulov.com">Ivan Akulov</a>
